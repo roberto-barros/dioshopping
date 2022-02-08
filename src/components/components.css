@@ -1,0 +1,35 @@
+/* Header */
+
+body {
+    background-color:   #bfbfbf  ;
+}
+
+.logoDioShopping {
+    align-self: center;
+    height: 100px;
+    width: 100px;
+}
+
+.btn-info {
+    background-color: #a7a7a7 ;
+    border-color: #a7a7a7 ;
+}
+
+.btn-info:hover {
+    background-color: #b0b0b0;
+    border-color: #b0b0b0;
+}
+
+.btn-info:focus {
+    background-color: #b0b0b0;
+    border-color: #b0b0b0;
+    border: none;
+}
+
+
+
+
+.badge {
+    background-color:  #a7a7a7 ;
+}
+

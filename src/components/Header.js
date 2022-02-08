@@ -1,19 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Grid, Typography, Button } from '@material-ui/core/';
+import { Grid, Button } from '@material-ui/core/';
 import Cart from './Cart';
+import logoDioShopping from '../assets/images/dioshopping-removebg2.png'
+import './components.css'
 
 const Header = () => {
     return(
-        <Grid container direction="row" justify="space-between" alignItems="center" xs={12}>
-            <Typography variant='h3'>
-                Dio Shopping
-            </Typography>
+        <Grid container direction="row" justify="space-around" alignItems="center" xs={12}>
             <Link to="/">
-                <Button color="primary">Home</Button>
+                <img className='logoDioShopping' src={logoDioShopping} alt='Logo Dio Shopping'/>
+            </Link>
+            <Link to="/">
+                <Button>Home</Button>
             </Link>
             <Link to="/contato">
-                <Button color="primary">Contato</Button>
+                <Button>Contato</Button>
             </Link>
             <Cart />   
 
